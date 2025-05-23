@@ -2,7 +2,7 @@
 
 이 프로젝트는 Google Agent Development Kit(ADK)를 활용하여 코딩 테스트 문제를 자동으로 생성, 검증, 해결하고 테스트 케이스까지 만들어주는 AI 에이전트 시스템입니다.
 
-[깃허브 소스](https://github.com/jeyong-shin/adk-codingtest-gen-agent)
+[깃허브 소스](https://github.com/SeongJung-Kim/adk-codingtest-gen-agent)
 
 ![아키텍처 다이어그램](https://raw.githubusercontent.com/jeyong-shin/adk-codingtest-gen-agent/main/architecture.png)
 
@@ -74,7 +74,7 @@
 
 1. 저장소 복제
    ```bash
-   git clone https://github.com/jeyong-shin/adk-codingtest-gen-agent.git
+   git clone https://github.com/SeongJung-Kim/adk-coding-agent.git
    cd adk-codingtest-gen-agent
    ```
 
