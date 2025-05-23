@@ -74,7 +74,7 @@
 
 1. 저장소 복제
    ```bash
-   git clone https://raw.githubusercontent.com/SeongJung-Kim/adk-coding-agent.git
+   git clone https://github.com/jeyong-shin/adk-codingtest-gen-agent.git
    cd adk-codingtest-gen-agent
    ```
 
@@ -122,7 +122,7 @@
 
    - BFS 문제를 내고 싶어
 
-[테스트 화면](https://raw.githubusercontent.com/SeongJung-Kim/adk-coding-agent/main/coding-agent-test-result.png)
+![테스트 화면](https://raw.githubusercontent.com/SeongJung-Kim/adk-coding-agent/main/coding-agent-test-result.png)
 
 ```
 문제1. 바이러스 감염 경로 추적
