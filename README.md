@@ -11,7 +11,7 @@
 
 ```
 .
-├── coding-agent/
+├── coding_agent/
 │   ├── agent.py                       # 메인 에이전트 정의
 │   ├── prompts.py                     # 메인 에이전트 프롬프트
 │   ├── .env.example                   # 환경 변수 예시 파일
@@ -39,6 +39,9 @@
 │       └── topic_finder/              # 문제 주제 탐색 에이전트
 │           ├── agents.py
 │           └── prompts.py
+├── deployment                         # Agent Engine 배포 스크립트
+├── eval                               # 
+├── tests                              # 
 ├── .gitignore                         # Git 무시 파일 설정
 ├── README.md                          # 프로젝트 설명 문서
 ├── requirements.txt                   # 필요 패키지 목록
@@ -75,7 +78,7 @@
 1. 저장소 복제
    ```bash
    git clone https://github.com/SeongJung-Kim/adk-coding-agent.git
-   cd adk-codingtest-gen-agent
+   cd adk-coding-agent
    ```
 
 2. 가상 환경 설정
@@ -100,7 +103,7 @@
 
 5. 환경 변수 설정
    ```bash
-   cp codingtest-generator/.env.example codingtest-generator/.env
+   cp coding-agent/.env.example coding-agent/.env
    ```
    `.env` 파일을 편집하여 필요한 API 키와 설정을 입력하세요.
 
@@ -122,7 +125,7 @@
 
    - BFS 문제를 내고 싶어
 
-![테스트 화면](https://raw.githubusercontent.com/SeongJung-Kim/adk-coding-agent/main/coding-agent-test-result.png)
+![테스트 화면](https://raw.githubusercontent.com/SeongJung-Kim/adk-coding-agent/main/docs/images/coding-agent-test-result.png)
 
 ```
 문제1. 바이러스 감염 경로 추적
